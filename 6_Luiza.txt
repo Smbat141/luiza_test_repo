@@ -1,0 +1,9 @@
+git fetch is used to download objects and refs from another repository
+git fetch [<options>] [<repository> [<refspec>…​]] a single named repository or URL
+git fetch [<options>] <group> several repositories at once
+git fetch --multiple [<options>] [(<repository> | <group>)…​]
+git fetch --all [<options>] all remotes
+
+git reset --hard origin/master is used to throw away all staged and unstaged changes, make current local branch exactly the same as origin/master.
+
+git remote show origin is used to see which branch is automatically pushed to when you run git push while on certain branches. It also shows you which remote branches on the server you don’t yet have, which remote branches you have that have been removed from the server, and multiple local branches that are able to merge automatically with their remote-tracking branch when you run git pull.
